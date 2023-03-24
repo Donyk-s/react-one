@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 // const element1 = React.createElement('span', { children: 'Hello' });
 // const element2 = React.createElement('span', { children: 'world' });
