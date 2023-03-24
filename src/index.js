@@ -1,3 +1,22 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+// const element1 = React.createElement('span', { children: 'Hello' });
+// const element2 = React.createElement('span', { children: 'world' });
+const element1 = <span>Hello</span>;
+const element2 = <span>world</span>;
+// const element = React.createElement('div', {
+//   a: 5,
+//   b: 10,
+//   children: 'Hello world',
+// });
+const element = (
+  <div>
+    {element1}
+    {element2}
+  </div>
+);
+console.log(element);
+// ReactDOM.render(element, document.querySelector('#root'));
 // ========================================
 // import React from 'react';
 // import ReactDOM from 'react-dom/client';
